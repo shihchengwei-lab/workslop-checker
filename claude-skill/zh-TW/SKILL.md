@@ -1,6 +1,6 @@
 ---
 name: verify-doc
-description: AI 文件驗收 / Workslop 檢查 — 判斷一份成品文件能不能被接手、使用、送出、決策。觸發條件：使用者要求「驗收這份文件」「文件驗收」「workslop 檢查」「驗收 AI 文件」「verify doc」「doc review」「workslop check」「review document」，或丟一份成品文件問「可不可以用 / 能不能交 / 能不能寄出 / 能不能接手」。**只用於成品文件**（簡報、memo、SOP、信、報告、proposal、會議紀錄、交接紀錄），**不適用於對話品質檢查或程式碼 review**。
+description: AI 文件驗收 / Workslop 檢查 — 判斷一份成品文件能不能被接手、使用、送出、決策；不是抓 AI，而是防止 AI 產物把修正成本丟給接手者。觸發條件：使用者要求「驗收這份文件」「文件驗收」「workslop 檢查」「驗收 AI 文件」「verify doc」「doc review」「workslop check」「review document」，或提供準交付文件（簡報、memo、SOP、信、報告、proposal、會議紀錄、交接文件、教案、PRD）問能不能用 / 交 / 寄出 / 接手、是否 self-contained、能否作為決策依據，或要查無來源 claim / 交付風險。只用於成品或準交付文件；**不適用於潤稿、翻譯、摘要、資料抽取、排版美感、引用格式、法律意見、對話品質檢查或程式碼 review**。
 ---
 
 # AI 文件驗收 / Workslop 檢查

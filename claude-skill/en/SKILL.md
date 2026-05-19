@@ -1,6 +1,6 @@
 ---
 name: verify-doc
-description: AI Document Verification / Workslop Checking — judges whether a finished document is ready to hand off, send, use, or rely on for a decision. Triggers when the user says "verify this doc", "doc review", "workslop check", "review document", "doc verification", or shares a finished document and asks "can I use this / hand this off / send this out". **For finished documents only** (slides, memos, SOPs, emails, reports, proposals, meeting notes, handoff docs). **Not for conversation quality checks or code review.**
+description: AI Document Verification / Workslop Checking — judges whether a finished document is ready to hand off, send, use, or rely on for a decision; not for catching AI, but for stopping AI output from dumping cleanup work on the next person. Triggers for "verify this doc", "doc review", "workslop check", "review document", "doc verification", or a near-final deliverable (slides, memos, SOPs, emails, reports, proposals, meeting notes, handoff docs, lesson plans, PRDs) with a readiness question about use, send, hand off, decision basis, self-containment, or unsupported claims. Finished or near-delivery documents only. **Not for polishing, translation, summarization, data extraction, layout or design review, citation formatting, legal advice, conversation quality checks, or code review.**
 ---
 
 # AI Document Verification / Workslop Checking

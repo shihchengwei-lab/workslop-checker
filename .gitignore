@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Working files
+*.tmp
+*.bak
+*.log
+
+# Private notes (defensive — should not exist in public repo)
+PRIVATE/
+TODO.md
+NOTES.md
+.env
+.env.*
+!.env.example

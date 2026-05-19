@@ -1,6 +1,6 @@
 # verify-doc / Workslop Checker
 
-[繁體中文 | [English (TODO)](README.md)]
+繁體中文 | [English](README.md)
 
 > 判斷 AI 寫的文件能不能被人接手、使用、送出或拿來決策。
 > 重點不是抓 AI，是防止 AI 產物把修正成本丟給接手者。
@@ -43,9 +43,8 @@
 ### 想 fork / 客製化
 
 見各語言子資料夾下的 README：
-- [Claude skill 中文版](claude-skill/zh-TW/SKILL.md)
-- [ChatGPT Custom GPT 中文版（含 Description / Starters / Instructions）](chatgpt-custom-gpt/zh-TW/README.md)
-- 英文版（TODO）
+- [Claude skill 中文版](claude-skill/zh-TW/SKILL.md) / [English version](claude-skill/en/SKILL.md)
+- [ChatGPT Custom GPT 中文版（含 Description / Starters / Instructions）](chatgpt-custom-gpt/zh-TW/README.md) / [English version](chatgpt-custom-gpt/en/README.md)
 
 ---
 
@@ -66,15 +65,15 @@
 
 ```
 workslop-checker/
-├── README.md                       # 英文版（TODO）
+├── README.md                       # 英文版
 ├── README.zh-TW.md                 # 本檔
 ├── LICENSE                         # CC-BY-4.0
 ├── claude-skill/
-│   ├── en/SKILL.md                 # TODO
-│   └── zh-TW/SKILL.md              # Claude Code skill 完整版
+│   ├── en/SKILL.md                 # Claude Code skill 英文版
+│   └── zh-TW/SKILL.md              # Claude Code skill 中文版
 ├── chatgpt-custom-gpt/
-│   ├── en/README.md                # TODO
-│   └── zh-TW/README.md             # ChatGPT Custom GPT 設定（含 source）
+│   ├── en/README.md                # Custom GPT 設定 英文版
+│   └── zh-TW/README.md             # Custom GPT 設定 中文版
 └── docs/
     ├── design-rationale.md         # 設計理由
     └── workslop-background.md      # workslop 出處與背景

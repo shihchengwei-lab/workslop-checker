@@ -1,6 +1,6 @@
 # verify-doc / Workslop Checker
 
-[繁體中文](README.zh-TW.md) | English
+English | [繁體中文](README.zh-TW.md)
 
 > A tool for checking whether an AI-written document is ready to hand off, ship, publish, or use for decisions.
 > Not about detecting AI. About stopping AI output from dumping cleanup work onto whoever has to use it next.
@@ -40,15 +40,15 @@ Click the GPT link above. Paste your document into the conversation. Ask whether
 
 ### Claude Code users (developers)
 
-Copy `claude-skill/zh-TW/SKILL.md` into your `~/.claude/skills/verify-doc/SKILL.md`. Restart Claude Code. Trigger with "verify this doc", "doc review", or "workslop check".
+Copy `claude-skill/en/SKILL.md` into your `~/.claude/skills/verify-doc/SKILL.md`. Restart Claude Code. Trigger with "verify this doc", "doc review", or "workslop check".
 
-(An English SKILL.md is on the TODO list. The Chinese version still works in English conversations — the model handles cross-language rules — but it won't match English trigger phrases until the English version is added.)
+(Traditional Chinese version: [`claude-skill/zh-TW/SKILL.md`](claude-skill/zh-TW/SKILL.md).)
 
 ### Want to fork or customize?
 
 See the README files in these folders:
-- [Claude skill (zh-TW)](claude-skill/zh-TW/SKILL.md) — full ruleset
-- [ChatGPT Custom GPT setup (zh-TW)](chatgpt-custom-gpt/zh-TW/README.md) — Description / Conversation starters / Instructions, ready to paste into Custom GPT Editor
+- [Claude skill (English)](claude-skill/en/SKILL.md) / [Claude skill (zh-TW)](claude-skill/zh-TW/SKILL.md) — full ruleset
+- [ChatGPT Custom GPT setup (English)](chatgpt-custom-gpt/en/README.md) / [ChatGPT Custom GPT setup (zh-TW)](chatgpt-custom-gpt/zh-TW/README.md) — Description / Conversation starters / Instructions, ready to paste into Custom GPT Editor
 
 ---
 
@@ -73,11 +73,11 @@ workslop-checker/
 ├── README.zh-TW.md                 # Traditional Chinese
 ├── LICENSE                         # CC-BY-4.0
 ├── claude-skill/
-│   ├── en/SKILL.md                 # TODO
-│   └── zh-TW/SKILL.md              # Full Claude Code skill (ruleset)
+│   ├── en/SKILL.md                 # Full Claude Code skill (English)
+│   └── zh-TW/SKILL.md              # Full Claude Code skill (Traditional Chinese)
 ├── chatgpt-custom-gpt/
-│   ├── en/README.md                # TODO
-│   └── zh-TW/README.md             # Custom GPT setup with source (Description/Starters/Instructions)
+│   ├── en/README.md                # Custom GPT setup (English) — Description/Starters/Instructions
+│   └── zh-TW/README.md             # Custom GPT setup (Traditional Chinese)
 └── docs/
     ├── design-rationale.md         # Why this design
     └── workslop-background.md      # Workslop origin & context
